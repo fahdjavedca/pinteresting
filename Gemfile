@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.6'
+ruby '2.3.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -15,6 +15,8 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+#Use devise for login
+gem 'devise', '~> 4.2.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
