@@ -17,6 +17,7 @@ group :production do
 end
 #Use devise for login
 gem 'devise', '~> 4.2.0'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
