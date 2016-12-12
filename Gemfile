@@ -18,7 +18,7 @@ end
 #Use devise for login
 gem 'devise', '~> 4.2.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
